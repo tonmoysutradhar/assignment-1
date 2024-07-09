@@ -2,9 +2,10 @@
 
 body {
   font-family: "Azeret Mono", monospace;
+  color: rgb(13, 19, 33);
 }
 
-/* navbar starts here */
+/* navbar style starts here */
 
 .navbar {
   max-width: 1440px;
@@ -18,14 +19,50 @@ body {
 .navbar p {
   font-size: 28px;
   font-weight: 800;
-  color: rgb(13, 19, 33);
 }
 .navbar button {
   padding: 17px 24px;
-  color: rgb(13, 19, 33);
   font-size: 20px;
   background-color: white;
   border: 1px solid rgb(13, 19, 33);
   border-radius: 8px;
   opacity: 0.8;
+}
+
+/* banner style starts here */
+
+.banner-container {
+  max-width: 1440px;
+  min-height: 652px;
+  margin: 0 auto;
+  background: url("./images/hero-bg.png");
+  margin-bottom: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-content {
+  width: 998px;
+  height: 582px;
+  text-align: center;
+}
+.banner-content h1 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  margin: 32px 0px 24px 0px;
+}
+.banner-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 32px;
+}
+.banner-content button {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  padding: 21px 24px 21px 24px;
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
 }
