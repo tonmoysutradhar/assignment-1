@@ -158,3 +158,37 @@ body {
   border: 1px solid rgb(13, 19, 33);
   opacity: 0.7;
 }
+
+/* Inspiration style starts here */
+
+.inspiration-container {
+  max-width: 1140px;
+  min-height: 775px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 150px;
+}
+.inspiration-box {
+  width: 1076px;
+  height: 550px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  padding: 32px;
+}
+.inspiration-box iframe{
+  border-radius: 16px;
+}
+.inspiration-container h2 {
+  font-size: 32px;
+  font-weight: 800;
+  margin: 0 0 24px 0;
+}
+.inspiration-container p {
+  width: 852px;
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 48px;
+  opacity: 0.7;
+}
