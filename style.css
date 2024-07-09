@@ -175,7 +175,7 @@ body {
   border-radius: 16px;
   padding: 32px;
 }
-.inspiration-box iframe{
+.inspiration-box iframe {
   border-radius: 16px;
 }
 .inspiration-container h2 {
@@ -191,4 +191,66 @@ body {
   line-height: 26px;
   margin-bottom: 48px;
   opacity: 0.7;
+}
+
+/* Current Target style starts here */
+
+.current-target-container {
+  max-width: 1140px;
+  min-height: 460px;
+  margin: 0 auto;
+  margin-bottom: 110px;
+}
+.target-content {
+  width: 852px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.target-content h2 {
+  font-size: 32px;
+font-weight: 800;
+margin: 0 0 24px 0;
+}
+.target-content p {
+  font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+opacity: 0.7;
+}
+.current-target-box {
+  display: flex;
+  gap: 24px;
+}
+.target-language {
+  padding: 40px;
+  width: 284px;
+}
+.target-language h1{
+  font-size: 24px;
+  font-weight: 800;
+}
+.target-language p {
+  font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+opacity: 0.7;
+}
+.target-language a {
+  font-size: 16px;
+font-weight: 700;
+color: rgb(13, 19, 33);
+}
+
+.target-html {
+  border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+}
+.target-css {
+  border-radius: 16px;
+background: rgba(0, 76, 232, 0.05);
+}
+.target-js {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
 }
