@@ -199,7 +199,7 @@ body {
   max-width: 1140px;
   min-height: 460px;
   margin: 0 auto;
-  margin-bottom: 110px;
+  margin-bottom: 111px;
 }
 .target-content {
   width: 852px;
@@ -209,14 +209,14 @@ body {
 }
 .target-content h2 {
   font-size: 32px;
-font-weight: 800;
-margin: 0 0 24px 0;
+  font-weight: 800;
+  margin: 0 0 24px 0;
 }
 .target-content p {
   font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-opacity: 0.7;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
 }
 .current-target-box {
   display: flex;
@@ -226,31 +226,52 @@ opacity: 0.7;
   padding: 40px;
   width: 284px;
 }
-.target-language h1{
+.target-language h1, .next-learn h1 {
   font-size: 24px;
   font-weight: 800;
 }
-.target-language p {
+.target-language p, .next-learn p {
   font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-opacity: 0.7;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
 }
-.target-language a {
+.target-language a, .next-learn a {
   font-size: 16px;
-font-weight: 700;
-color: rgb(13, 19, 33);
+  font-weight: 700;
+  color: rgb(13, 19, 33);
 }
 
 .target-html {
   border-radius: 16px;
-background: rgba(255, 76, 30, 0.05);
+  background: rgba(255, 76, 30, 0.05);
 }
 .target-css {
   border-radius: 16px;
-background: rgba(0, 76, 232, 0.05);
+  background: rgba(0, 76, 232, 0.05);
 }
 .target-js {
   border-radius: 16px;
   background: rgba(255, 223, 0, 0.05);
+}
+
+/* My Next Target style  starts here */
+
+.next-target-container {
+  max-width: 1140px;
+  min-height: 866px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.next-learn {
+  height: 139px;
+  display: flex;
+  padding: 40px;
+  gap: 24px;
+  align-items: center;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+}
+.nodejs {
+  margin: 24px 0 24px 0;
 }
